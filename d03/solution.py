@@ -40,9 +40,7 @@ with open('input.txt', 'r') as file:
     garbage = file.read()
 
 answer_1 = solve_part_1()
-
 print(f'Sum of valid multiplications is {answer_1}')
 
 answer_2 = solve_part_2()
-
 print(f'Sum of enabled multiplications is {answer_2}')
