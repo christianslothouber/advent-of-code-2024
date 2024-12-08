@@ -48,9 +48,9 @@ with open('input.txt', 'r') as file:
 strict_results = [is_safe_strict(report) for report in reports]
 amount_of_strict_safe_reports = sum(strict_results)
 
-print(f'Number of strict safe reports {amount_of_strict_safe_reports}')
+print(f'Number of strict safe reports is {amount_of_strict_safe_reports}')
 
 loose_results = [is_safe_loose(report) for report in reports]
 amount_of_loose_safe_reports = sum(loose_results)
 
-print(f'Number of loose safe reports {amount_of_loose_safe_reports}')
+print(f'Number of loose safe reports is {amount_of_loose_safe_reports}')
