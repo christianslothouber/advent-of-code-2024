@@ -25,8 +25,7 @@ def move_complex(path_grid, obstacle_grid, guard, target):
     if is_obstacle(path_grid, target):
         return turn(guard)
     else:
-        if obstacle_grid[x_target][y_target] != 'O' and check_loop(path_grid, target, guard):
-            print('Found a new obstacle')
+        if check_loop(path_grid, target, guard):
             obstacle_grid[x_target][y_target] = 'O'
 
         path_grid[x_target][y_target] = 'X'
