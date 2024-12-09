@@ -10,14 +10,6 @@ def read_and_parse_file(file_path):
     return parsed_list
 
 
-def add(a, b):
-    return a + b
-
-
-def mul(a, b):
-    return a * b
-
-
 def is_solvable(equation):
     answer, values = equation
 
